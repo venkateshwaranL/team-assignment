@@ -1,2 +1,12 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="stylesheet" href="Product-display.css">
+        <title>Samsung</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Samsung S24</h1>
+        <p style="text-align: center;">Introducing the new S24 series</p>
+        <p style="text-align: center;">With Unmatched Performance</p>
+    </body>
+</html>
