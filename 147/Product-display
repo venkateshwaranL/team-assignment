@@ -1,2 +1,21 @@
 <!DOCTYPE html>
 <html>
+    <title>Sign in page</title>
+    <link rel="stylesheet" href="Product-display.css">
+</html>
+<body>
+    <div>
+        <section class="container">
+            <h1>Sign in</h1>
+            <form>
+                <label>Username</label>
+                <input type="text">
+                <label>Email ID</label>
+                <input type="email">
+                <label>Password</label>
+                <input type="text">
+                <button>Sign in</button>
+            </form>
+        </section>
+    </div>
+</body>
