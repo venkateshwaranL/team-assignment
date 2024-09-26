@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     padding: 0%;
     margin: 0%;
 }
+
 body{
     background-image: linear-gradient(100deg, rgba(12, 12, 12, 0.964),rgb(0, 0, 80));
     display: flex;
@@ -12,12 +16,13 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+
 .container{
     width: 360px;
     background-image: linear-gradient(to bottom right, rgb(42, 41, 41),rgba(0, 0, 0, 0.681));
     height: 280px;
-    border-radius: 20px;
 }
+
 h1{
     text-align: center;
     color: white;
@@ -25,12 +30,13 @@ h1{
     font-family: open sans;
     font-size: 25px;
 }
+
 form{
     margin-left: 77px;
     width: 200px;
     height: 200px;
-
 }
+
 label{
     display: block;
     color: gray;
@@ -38,6 +44,7 @@ label{
     font-family: prompt;
     font-size: 15px;
 }
+
 input[type="text"], input[type="email"]{
     font-family: Golos Text;
     height: 20px;
@@ -48,6 +55,7 @@ input[type="text"], input[type="email"]{
     padding: 2px;
     color: white;
 }
+
 button{
     border-radius: 57px;
     margin-left: 55px;
@@ -61,8 +69,37 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+
 button:hover{
     background-color: rgb(255, 255, 255);
     color: black;
     transition-duration: 0.3s;
+}
+
+header{
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    color: white;
+    font-family: montserrat;
+    font-size: 40px;
+    animation: typing 0.2s steps(4) forwards, blink 0.75s step-end infinite;
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+}
+
+@keyframes typing{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 13%;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
 }
