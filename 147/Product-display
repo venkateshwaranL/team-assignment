@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="Product-display.css">
 </html>
 <body>
+    <header>Welcome</header>
     <div>
         <section class="container">
             <h1>Sign in</h1>
